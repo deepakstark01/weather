@@ -1,0 +1,56 @@
+{
+    "login": "([Ll][Oo][Gg](\\s|_|-)?[Ii][Nn])|([Ss][Ii][Gg][Nn]\\s?[Ii][Nn])|([Pp][Rr][Oo][Ff][Ii][Ll][Ee]|([\\W][Ee][Nn][Tt][Ee][Rr]\\s?([Nn][Oo][Ww])?))|([GG][O$])",
+    "check_login_status": "([Ll][Oo][Gg]\\s?[Ii][Nn])|([Ss][Ii][Gg][Nn]\\s?[Ii][Nn])",
+    "verification_code":"((i?)(Verification\\sCode))",
+    "deposit": "([Dd][Ee][Pp][Oo][Ss][Ii][Tt])|((i?)Online deposit)|([Aa][Dd][Dd](\\s|_)?[Mm][Oo][Nn][Ee][Yy])|([Cc][Aa][Ss][Hh])|(₹)",
+    "zero_buttons": "([^\\d|][0-5][0]{1}[0+$])",
+    "deposit_copy": [
+        "([Dd][Ee][Pp][Oo][Ss][Ii][Tt])",
+        "([Aa][Dd][Dd](\\s|_)?[Mm][Oo][Nn][Ee][Yy])",
+        "(0.00)",
+        "(\u20b9)",
+        "(₹)",
+        "([Bb][Aa][Nn][Kk])",
+        "[Cc][Aa][Ss][Hh]"
+    ],
+    "online":"([Oo][Nn][Ll][Ii][Nn][Ee])",
+    "instant_payment":"[Ii][Nn][Ss][Tt][Aa][Nn][Tt]\\s?[Pp][Aa][Yy][Mm][Ee][Nn][Tt]",
+    "upi": "([^\\s]?[Uu][Pp][Ii])|([Pp][Aa][Yy][Tt][Mm])|([^\\w][W][Aa][Ll][Ll][Ee][Tt])",
+    "submit": "([Dd][Ee][Pp][Oo][Ss][Ii][Tt])|([Cc][Oo][Nn][Tt][Ii][Nn][Uu][Ee])|([Ff][Ii][Ll][Ll][Ee][Dd])|([Ff][Ii][Rr][Mm])",
+    "popup": "([\\w]?[Cc][Ll][Oo][Ss][Ee][\\W$])\\s?|([Nn][Oo]\\s[Tt][Hh][Aa][Nn][Kk][Ss])|([Nn][Oo][Tt]\\s[Ii][Nn][Tt][Ee][Rr][Ee][Ss][Tt][Ee][Dd])|([Dd][Ee][Nn][Yy])|([Dd][Oo][Nn]\\'?[Tt]\\s?[Aa][Ll][Ll][Oo][Ww])|([Cc][Ll][Ee][Aa][Rr])|([Ll][Aa][Tt][Ee][Rr])|([Cc][Aa][Nn][Cc][Ee][Ll])|([Aa][Cc][Cc][Ee][Pp][Tt+$])",
+    "captcha": "([Cc][Aa][Pp][Tt][Cc][Hh][Aa])|recaptcha-checkbox-border",
+    "payment_page": "([Uu][Pp][Ii])|([Aa][Ss][Tt][Rr][Oo]\\s?[Pp][Aa][Yy])|([Vv][Ii][Ss][Aa])|([Rr][Uu][Pp][Aa][Yy])|([Pp][Aa][Yy][Tt][Mm])|([Pp][Hh][Oo][Nn][Ee]\\s?[Pp][Aa][Yy])|([Mm][Aa][Ss][Tt][Ee][Rr]\\s?[Cc][Aa][Rr][Dd])|([Bb][Ii][Tt][Cc][Oo][Ii][Nn])|([Ee][Tt][Hh][Ee][Rr][Ii][Uu][Mm])|([Ww][Aa][Ll][Ll][Ee][Tt])|([Cc][Aa][Ss][Hh][Tt][Oo])",
+    "userid": "([Uu][Ss][Ee][Rr](_|\\s)?[Ii][Dd])|([Uu][Ss][Ee][Rr][Nn][Aa][Mm][Ee])|([Ee][Mm][Aa][Ii][Ll])|([Tt][Ee][Ll])|([Pp][Hh][Oo][Nn][Ee](-|_|\\s)?(([Nn][Uu][Mm][Bb][Ee][Rr])|([Nn][Oo])\\.?)?)",
+    "accept": "([Aa][Cc][Cc][Ee][Pp][Tt])",
+    "password": "([Pp][Aa][Ss][Ss][Ww][Oo][Rr][Dd])", 
+    "amount": "([Aa][Mm][Oo][Uu][Nn][Tt])|(0.00)",
+    "continue": "([Dd][Ee][Pp][Oo][Ss][Ii][Tt])|([Cc][Oo][Nn][Tt][Ii][Nn][Uu][Ee])|([Ff][Ii][Ll][Ll][Ee][Dd])|([^\\w][P][Aa][Yy])|([Cc][Oo][Nn][Ff][Ii][Rr][Mm])|([Aa][Dd][Dd])",
+    "continue1": "([Cc][Oo][Nn][Tt][Ii][Nn][Uu][Ee])",
+    "cookies": "([Cc][Oo][Oo][Kk][Ii][Ee][Ss])",
+    "cookies_accept": "(OK)|([Yy][Ee][Ss])|([Aa][Cc][Cc][Ee][Pp][Tt])|([Ss][Kk][Ii][Pp])",
+    "pla": "([Uu][Ss][Ee][Rr][Nn][Aa][Mm][Ee])|([Nn][Aa][Mm][Ee])|([Ff][Ii][Rr][Ss][Tt])|([Ll][Aa][Ss][Tt])|([Pp][Hh][oO][Nn][Ee])|([Uu][Pp][Ii])|([Aa][Cc][Cc][Oo][Uu][Nn][Tt])",
+    "scan_qr":"([ ][Qq][Rr])|([\\w._]{1,100}@[a-zA-Z]{1,10})",
+    "upi_id":"([\\w._]{1,100}@[a-zA-Z0-9.-]{1,30})",
+    "form_data": {
+        "name": "demo",
+        "upi": "demo123@paytm",
+        "phone": "0987654321",
+        "email": "demo123@gmail.com",
+        "account": "1008",
+        "address": "0652/A2",
+        "city": "nagpur",
+        "post_code":"280032"
+    },
+    "form_regex": {
+        "name": "([Nn][Aa][Mm][Ee])",
+        "upi": "([Uu][Pp][Ii])",
+        "phone": "([Pp][Hh][Oo][Nn][Ee]|[Mm][Oo][Bb]|[Cc][Oo][Nn][Tt][Aa][Cc][Tt])",
+        "email": "([Ee][Mm][Aa][Ii][Ll])",
+        "account": "([Aa][Cc][Cc][Oo][Uu][Nn][Tt])",
+        "address": "([Aa][Dd][Dd][Rr][Ee][Ss][Ss])",
+        "city": "([Cc][Ii][Tt][Yy])",
+        "post_code": "([Pp][Oo][Ss][Tt])"
+
+    },
+    "bonus":"((i?)(without))"
+}
